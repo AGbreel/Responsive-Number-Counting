@@ -1,0 +1,48 @@
+/* XSmall */
+@media screen and (min-width: 480px) {
+    .wrapper {
+        width: 90vw;
+        gap: 30px;
+    }
+
+    .wrapper .container {
+        width: calc(50% - 40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 85vw;
+    }
+
+    .wrapper .container {
+        width: 26vmin;
+        height: 26vmin;
+        font-size: 12px;
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 868px) {}
+
+/* Large */
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 80vw;
+    }
+
+    .wrapper .container {
+        width: 28vmin;
+        height: 28vmin;
+        font-size: 16px;
+    }
+}
+
+/* XLarge */
+@media screen and (min-width: 1280px) {}
+
+/* 2XLarge*/
+@media screen and (min-width: 1536px) {}
